@@ -52,7 +52,6 @@ def add_s(array)
   i = 0
   block_return_values = []
   while i < array.length
-#    block_return_values << array[i]
    if i != 1
      block_return_values[i] = array[i] + "s"
    else
