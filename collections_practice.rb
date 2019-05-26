@@ -47,7 +47,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  # my_str << "Polo"
-  array.map! { |array| "#{word/s}" }
+  array.map! { |item| "#{item/s}" }
   return array
 end
