@@ -45,3 +45,7 @@ end
 def sum_array(array)
   array.inject { |val, n| val + n }
 end
+
+def add_s(array)
+  array.select{|item| item[array.size + 1] = "s"}
+end
