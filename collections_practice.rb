@@ -47,6 +47,15 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map! { |item| "#{item}" + "s" }
-  return array
+  # array.map! { |item| "#{item}" + "s" }
+  # return array
+  i = 0
+  block_return_values = []
+  while i < array.length
+#    block_return_values << array[i]
+   block_return_values[i] = array[i] + "s"
+   i = i + 1
+  end
+  return block_return_values
+
 end
