@@ -48,8 +48,6 @@ end
 
 def add_s(array)
   # my_str << "Polo"
-  array.each do |item|
-    item = item + "s"
-  end
+  array.map! { |array| "#{word/s}" }
   return array
 end
