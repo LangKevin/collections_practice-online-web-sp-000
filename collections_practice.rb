@@ -57,7 +57,7 @@ def add_s(array)
      block_return_values[i] = array[i] + "s"
    else
      block_return_values[i] = array[i]
-   end   
+   end
    i = i + 1
   end
   return block_return_values
