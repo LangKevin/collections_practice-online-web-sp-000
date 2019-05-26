@@ -47,6 +47,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map! { |item| "#{item/"s"}" }
+  array.map! { |item| "#{item}" + "s" }
   return array
 end
