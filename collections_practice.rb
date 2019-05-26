@@ -50,7 +50,6 @@ def add_s(array)
   # array.map! { |item| "#{item}" + "s" }
   # return array
   i = 0
-  block_return_values = []
   while i < array.length
    if i != 1
      array[i] = array[i] + "s"
