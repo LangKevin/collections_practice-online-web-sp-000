@@ -36,4 +36,4 @@ def kesha_maker(array)
     item[3] = "$"
   end
   return array
-end  
+end
