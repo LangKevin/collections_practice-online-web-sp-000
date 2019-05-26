@@ -47,5 +47,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.select{|item| item[array.size + 1] = "s"}
+  # my_str << "Polo"
+  array.each do |item|
+    item = item + "s"
+  end
+  return array
 end
